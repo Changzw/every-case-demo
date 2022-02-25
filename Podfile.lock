@@ -1,0 +1,302 @@
+PODS:
+  - Action (3.11.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - Alamofire (4.9.1)
+  - Bugly (2.5.90)
+  - DifferenceKit (1.2.0):
+    - DifferenceKit/Core (= 1.2.0)
+    - DifferenceKit/UIKitExtension (= 1.2.0)
+  - DifferenceKit/Core (1.2.0)
+  - DifferenceKit/UIKitExtension (1.2.0):
+    - DifferenceKit/Core
+  - Differentiator (3.1.0)
+  - Down (0.11.0)
+  - FLAnimatedImage (1.0.16)
+  - FlexUI (0.1.0):
+    - DifferenceKit
+    - FLAnimatedImage
+    - MPITextKit
+    - Nuke
+    - Nuke-WebP-Plugin
+    - Runtime
+    - Yoga
+  - FRDIntent (0.10.4):
+    - FRDIntent/URLRoutes (= 0.10.4)
+  - FRDIntent/Intent (0.10.4)
+  - FRDIntent/URLRoutes (0.10.4):
+    - FRDIntent/Intent
+  - FSPagerView (0.0.1)
+  - Gifu (3.3.1)
+  - Hue (5.0.0)
+  - IBAnimatable (6.1.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - JGProgressHUD (2.2)
+  - KeychainAccess (4.2.2)
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
+    - libwebp/webp
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
+  - LiteRoute (2.1.21)
+  - Localize-Swift (3.1.0)
+  - LookinServer (1.0.4)
+  - MagazineLayout (1.6.4)
+  - MJRefresh (3.7.2)
+  - MMKV (1.2.10):
+    - MMKVCore (~> 1.2.10)
+  - MMKVCore (1.2.10)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - MPITextKit (0.1.10)
+  - "NSObject+Rx (4.4.1)":
+    - RxSwift (~> 4.3)
+  - Nuke (9.5.0)
+  - Nuke-WebP-Plugin (6.0.1):
+    - libwebp (= 1.1.0)
+    - Nuke (~> 9.0)
+  - PagingKit (1.18.0)
+  - Popover (1.3.0)
+  - PPBadgeViewSwift (3.1.0)
+  - Protobuf (3.19.0)
+  - QGVAPlayer (1.0.2)
+  - Result (4.1.0)
+  - RouterService (1.1.0):
+    - RouterServiceInterface (= 1.1.0)
+  - RouterServiceInterface (1.1.0)
+  - Runtime (2.2.2)
+  - RxAnimated (0.5.0):
+    - RxAnimated/Core (= 0.5.0)
+    - RxCocoa (~> 4.3)
+    - RxSwift (~> 4.3)
+  - RxAnimated/Core (0.5.0):
+    - RxCocoa (~> 4.3)
+    - RxSwift (~> 4.3)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxGesture (2.2.0):
+    - RxCocoa (~> 4.5)
+    - RxSwift (~> 4.5)
+  - RxRelay (0.1.3):
+    - RxSwift
+  - RxSwift (4.5.0)
+  - RxSwiftExt (3.4.0):
+    - RxSwiftExt/Core (= 3.4.0)
+    - RxSwiftExt/RxCocoa (= 3.4.0)
+  - RxSwiftExt/Core (3.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwiftExt/RxCocoa (3.4.0):
+    - RxCocoa (~> 4.0)
+    - RxSwiftExt/Core
+  - RxViewModel (6.0.0):
+    - RxSwift (~> 4.0)
+  - SnapKit (5.0.1)
+  - SSZipArchive (2.4.2)
+  - Starscream (4.0.4)
+  - SVGAPlayer (2.5.7):
+    - SVGAPlayer/Core (= 2.5.7)
+    - SVGAPlayer/ProtoFiles (= 2.5.7)
+  - SVGAPlayer/Core (2.5.7):
+    - SSZipArchive (>= 1.8.1)
+    - SVGAPlayer/ProtoFiles
+  - SVGAPlayer/ProtoFiles (2.5.7):
+    - Protobuf (~> 3.4)
+  - SwiftRichString (3.7.2)
+  - Yoga (1.14.0)
+  - ZVActivityIndicatorView (0.2.3)
+  - ZVProgressHUD (3.0.4):
+    - ZVActivityIndicatorView
+
+DEPENDENCIES:
+  - Action
+  - Bugly
+  - DifferenceKit
+  - Down
+  - FlexUI (from `https://code.badam.mobi/changming/flexui.git`, branch `master`)
+  - FRDIntent (from `https://github.com/douban/FRDIntent.git`)
+  - FSPagerView (from `https://code.badam.mobi/badambiz_ios/fspagerview.git`, branch `master`)
+  - Gifu
+  - Hue
+  - IBAnimatable
+  - IQKeyboardManagerSwift
+  - JGProgressHUD
+  - KeychainAccess
+  - LiteRoute
+  - Localize-Swift (~> 3.1.0)
+  - LookinServer
+  - MagazineLayout
+  - MJRefresh
+  - MMKV
+  - Moya/RxSwift
+  - MPITextKit
+  - "NSObject+Rx"
+  - Nuke
+  - PagingKit
+  - Popover
+  - PPBadgeViewSwift
+  - QGVAPlayer (from `https://github.com/Tencent/vap`, tag `iOS1.0.3`)
+  - RouterService
+  - RxAnimated
+  - RxCocoa
+  - RxDataSources
+  - RxGesture
+  - RxRelay
+  - RxSwiftExt
+  - RxViewModel
+  - SnapKit
+  - Starscream
+  - SVGAPlayer
+  - SwiftRichString
+  - ZVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - Action
+    - Alamofire
+    - Bugly
+    - DifferenceKit
+    - Differentiator
+    - Down
+    - FLAnimatedImage
+    - Gifu
+    - Hue
+    - IBAnimatable
+    - IQKeyboardManagerSwift
+    - JGProgressHUD
+    - KeychainAccess
+    - libwebp
+    - LiteRoute
+    - Localize-Swift
+    - LookinServer
+    - MagazineLayout
+    - MJRefresh
+    - MMKV
+    - MMKVCore
+    - Moya
+    - MPITextKit
+    - "NSObject+Rx"
+    - Nuke
+    - Nuke-WebP-Plugin
+    - PagingKit
+    - Popover
+    - PPBadgeViewSwift
+    - Protobuf
+    - Result
+    - RouterService
+    - RouterServiceInterface
+    - Runtime
+    - RxAnimated
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - RxViewModel
+    - SnapKit
+    - SSZipArchive
+    - Starscream
+    - SVGAPlayer
+    - SwiftRichString
+    - Yoga
+    - ZVActivityIndicatorView
+    - ZVProgressHUD
+
+EXTERNAL SOURCES:
+  FlexUI:
+    :branch: master
+    :git: https://code.badam.mobi/changming/flexui.git
+  FRDIntent:
+    :git: https://github.com/douban/FRDIntent.git
+  FSPagerView:
+    :branch: master
+    :git: https://code.badam.mobi/badambiz_ios/fspagerview.git
+  QGVAPlayer:
+    :git: https://github.com/Tencent/vap
+    :tag: iOS1.0.3
+
+CHECKOUT OPTIONS:
+  FlexUI:
+    :commit: 3a734b5c0cf2fb7f5652f02254128c8da930ebca
+    :git: https://code.badam.mobi/changming/flexui.git
+  FRDIntent:
+    :commit: 9fa5a67089aaf77d8a1776e6361bbc89015d35cd
+    :git: https://github.com/douban/FRDIntent.git
+  FSPagerView:
+    :commit: 68f595621d98cc00aaacdcb779e1026d5f7d3d40
+    :git: https://code.badam.mobi/badambiz_ios/fspagerview.git
+  QGVAPlayer:
+    :git: https://github.com/Tencent/vap
+    :tag: iOS1.0.3
+
+SPEC CHECKSUMS:
+  Action: 689181e4c3f6566844178d8a7da6fef39a9597fc
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Bugly: 88bc32c0acc6fef7b74d610f0319ee7560d6b9fe
+  DifferenceKit: 5659c430bb7fe45876fa32ce5cba5d6167f0c805
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  Down: b6ba1bc985c9d2f4e15e3b293d2207766fa12612
+  FLAnimatedImage: 8f3e854ebf9680b71f0b6e700939687fc4d82b4b
+  FlexUI: c6fc337f5618ddae398d4e3fd8afd237967a92a8
+  FRDIntent: 2a92bac96c3735deba00af50e2fd7ac67d763783
+  FSPagerView: 1f65acefe9da8c0402893a94f37cc6301e0a2dc3
+  Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
+  Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
+  IBAnimatable: 99dddd4c0625884a301ba3ecbc1615f8a390368e
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
+  LiteRoute: 0de115c90e3d8927ba8ae039f13a3b8a41a1ead5
+  Localize-Swift: 4bed4f0ccac8be2ec3517ee359da80ba2adb0fae
+  LookinServer: 743c1681771d0a8dcc38825325a080c3186404a5
+  MagazineLayout: 10598ab8b3554c224b75da32b613c76becd9786c
+  MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
+  MMKV: 76033b9ace2006623308910a3afcc0e25eba3140
+  MMKVCore: b00e7a09ec77a1b916aef336eedd3b99ec249978
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  MPITextKit: a8d58719f46c083484a4a67e24c373573089b538
+  "NSObject+Rx": 9884a92f19b610795c431e10b4e601913b59c9e9
+  Nuke: 6f400a4ea957e09149ec335a3c6acdcc814d89e4
+  Nuke-WebP-Plugin: ea80971975a0fff00900a0ad19bc146d6759ee25
+  PagingKit: 366cc22d74f4de7768bb31d8fcd49182f53e3ce7
+  Popover: 10e1d9528f81d9504df984b7b3f491292bc1822d
+  PPBadgeViewSwift: 18a219a9897f418342c22dd1a54f7b18ac56546b
+  Protobuf: e9b99dd5da72f665ec503b19191f245a22188b4d
+  QGVAPlayer: d0c9c11ea6171606a4211845adf691b8601231b8
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RouterService: 0a42c4e2ed3918afaaca7b3e9afe3e2f1475d1d7
+  RouterServiceInterface: 0d3d11d5cfd00f9003df8003d38927767be1b799
+  Runtime: 67741bd196fb4ad821c4d259ccc527bf734d8806
+  RxAnimated: 57a731e59557219480fb3dd86d965d977d863fc6
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxGesture: c1b7bf17166b0ef9d642a9510f8bac5785f18990
+  RxRelay: e2a4a9910e2b23151c6ee2fe8d717016280d924f
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  RxSwiftExt: 01f8ecbeeb355698e9c75365ebe908b00dacf45d
+  RxViewModel: a50db3976409628887bad943825ab5f641275f0c
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SSZipArchive: e7b4f3d9e780c2acc1764cd88fbf2de28f26e5b2
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SVGAPlayer: 318b85a78b61292d6ae9dfcd651f3f0d1cdadd86
+  SwiftRichString: d61b807db1f8834c26fee92b6dd3e1be2dc5af03
+  Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
+  ZVActivityIndicatorView: 7e79667deaaeeb8f92bb8b4f6ac746e3d9c95058
+  ZVProgressHUD: c7c293ca76c109b451fe5186bc69062692f283a1
+
+PODFILE CHECKSUM: 21a82636f218e1f6fe28a3f715eecaf6ece7443c
+
+COCOAPODS: 1.10.1

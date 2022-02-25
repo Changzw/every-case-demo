@@ -1,0 +1,6 @@
+framework module LiteRoute {
+  umbrella header "LiteRoute-umbrella.h"
+
+  export *
+  module * { export * }
+}

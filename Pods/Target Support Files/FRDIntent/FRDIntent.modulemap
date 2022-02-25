@@ -1,0 +1,6 @@
+framework module FRDIntent {
+  umbrella header "FRDIntent-umbrella.h"
+
+  export *
+  module * { export * }
+}
