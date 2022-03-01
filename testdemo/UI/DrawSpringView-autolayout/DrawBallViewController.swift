@@ -42,11 +42,9 @@ class DrawBallViewController: UIViewController {
     containerView.addSubview(label)
     containerView.addSubview(iconView)
     
-    containerView.snp.makeConstraints{
-      $0.width.equalTo(300)
-      $0.height.equalTo(60)
-      $0.center.equalToSuperview()
-    }
+    containerView.center = view.center
+    containerView.frame.size = CGSize(width: 300, height: 60)
+
     iconView.snp.makeConstraints{
       $0.width.height.equalTo(60)
       $0.center.equalToSuperview()
