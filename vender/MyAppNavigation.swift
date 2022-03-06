@@ -14,26 +14,26 @@ struct MyAppNavigation: AppNavigation {
   func viewcontrollerForNavigation(navigation: Navigation) -> UIViewController {
     if let navigation = navigation as? Chapter {
       switch navigation {
-      case .randomTest:     return RandomTestViewController()
-      case .operators:      return RxOperatorController()
-      case .uidemos:        return ViewController()
-      case .router:         return ViewController()
-      case .xib:            return XibDemoViewController(nibName: "XibDemoViewController", bundle: Bundle.main)
-      case .pageGround:     return TopContainerViewController()
-      case .animation:      return AnimationViewController()
-      case .presentation:   return PresentFromViewController()
-      case .parallax:       return ParallaxViewController()
-      case .stickyMenu:     return StickyMenuTabViewController()
-      case .matix:          return MatrixViewController()
-      case .customTransiton: return CustomTransition__ViewController()
-      case .coreGraphic:    return CoreGraphicTableViewController()
-      case .partyMode:      return PartyModeViewController()
-      case .genericTableView:return GenericTableViewController<RecentItem>(items: recentItems, cellConfigurator: {
+      case .randomTest:       return RandomTestViewController()
+      case .operators:        return RxOperatorController()
+      case .uidemos:          return ViewController()
+      case .router:           return ViewController()
+      case .xib:              return XibDemoViewController(nibName: "XibDemoViewController", bundle: Bundle.main)
+      case .pageGround:       return TopContainerViewController()
+      case .animationContent: return AnimationContentViewController()
+      case .presentation:     return PresentFromViewController()
+      case .parallax:         return ParallaxViewController()
+      case .stickyMenu:       return StickyMenuTabViewController()
+      case .matix:            return MatrixViewController()
+      case .customTransiton:  return CustomTransition__ViewController()
+      case .coreGraphic:      return CoreGraphicTableViewController()
+      case .partyMode:        return PartyModeViewController()
+      case .genericTableView: return GenericTableViewController<RecentItem>(items: recentItems, cellConfigurator: {
         $0.cellConfigurator
       })
-      case .pagingListView:return PagingListViewController(viewModel: PagingListViewModel())
-      case .floatButton: return DrawBallViewController()
-      case .glossyButton: return GlossyButtonViewController()
+      case .pagingListView:   return PagingListViewController(viewModel: PagingListViewModel())
+      case .floatButton:      return DrawBallViewController()
+      case .glossyButton:     return GlossyButtonViewController()
       }
     }
     return UIViewController()

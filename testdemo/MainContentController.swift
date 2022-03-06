@@ -12,10 +12,7 @@ import RxRelay
 import RxCocoa
 import Action
 
-protocol ViewControllerMaker {
-//  var viewController: UIViewController { get }
-}
-
+protocol ViewControllerMaker { }
 extension ViewControllerMaker {
   var viewController: UIViewController {
     let vc = UIViewController()
@@ -30,10 +27,8 @@ class MainContentController: UITableViewController {
     super.viewDidLoad()
     let swi = UISwitch()
     button.setTitle("WWWWWW", for: .normal)
-    
     swi.frame = CGRect(x: 100, y: 100, width: 20, height: 20)
     swi.transform = CGAffineTransform.init(scaleX: 0.4, y: 0.4)
-
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: UITableViewCell.description())
   }
   

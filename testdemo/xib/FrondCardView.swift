@@ -14,7 +14,7 @@ class CardView: UIView {
   @IBOutlet var imageView: FrondCardImageView!
   override func layoutSubviews() {
     super.layoutSubviews()
-    roundCorner()
+    roundedCorner()
   }
 }
 

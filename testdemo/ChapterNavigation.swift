@@ -16,7 +16,7 @@ enum Chapter: CaseIterable, ViewControllerMaker, Navigation {
   case router
   case xib
   case pageGround
-  case animation
+  case animationContent
   case presentation
   case parallax
   case stickyMenu
@@ -37,7 +37,7 @@ enum Chapter: CaseIterable, ViewControllerMaker, Navigation {
       case .router:           return ViewController()
       case .xib:              return XibDemoViewController.loadFromNib()
       case .pageGround:       return TopContainerViewController()
-      case .animation:        return AnimationViewController()
+      case .animationContent:        return AnimationContentViewController()
       case .presentation:     return PresentFromViewController()
       case .parallax:         return ParallaxViewController()
       case .stickyMenu:       return StickyMenuTabViewController()

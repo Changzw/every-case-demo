@@ -49,15 +49,15 @@
 		903E35622630139B00519A1C /* SecondMenuContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903E35612630139B00519A1C /* SecondMenuContainerViewController.swift */; };
 		903E356C26311A3600519A1C /* StickyMenuTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903E356B26311A3600519A1C /* StickyMenuTabViewController.swift */; };
 		903E356F26311F2E00519A1C /* StickyMenuItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903E356E26311F2D00519A1C /* StickyMenuItemViewController.swift */; };
+		904492E227D3B3CD002BF548 /* UIView+createRoundedRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904492E127D3B3CD002BF548 /* UIView+createRoundedRect.swift */; };
+		904492E427D3B8D0002BF548 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904492E327D3B8D0002BF548 /* Drawing.swift */; };
+		904492E727D3C062002BF548 /* AnimationContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904492E627D3C062002BF548 /* AnimationContentViewController.swift */; };
+		904492E927D3CC19002BF548 /* AnimationNavgator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904492E827D3CC19002BF548 /* AnimationNavgator.swift */; };
 		905B202B253D4CBB00921545 /* DifferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905B202A253D4CBB00921545 /* DifferenceViewController.swift */; };
 		905B202F253D4CF300921545 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905B202D253D4CF200921545 /* PageViewController.swift */; };
 		905B2034253D846100921545 /* CyclePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905B2033253D846100921545 /* CyclePageView.swift */; };
 		90606D45258A5A7500AA516A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90606D44258A5A7500AA516A /* Router.swift */; };
-		90606D4A258A5B8A00AA516A /* MyNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90606D49258A5B8A00AA516A /* MyNavigation.swift */; };
 		90606D4D258A5BC700AA516A /* MyAppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90606D4C258A5BC700AA516A /* MyAppNavigation.swift */; };
-		90606D52258A5BE400AA516A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90606D50258A5BE400AA516A /* AboutViewController.swift */; };
-		90606D53258A5BE400AA516A /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90606D51258A5BE400AA516A /* AboutViewController.xib */; };
-		90606D57258A5BFE00AA516A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90606D56258A5BFE00AA516A /* ProfileViewController.swift */; };
 		906384D0253B13CC008EDFD8 /* DifferenceDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906384CF253B13CC008EDFD8 /* DifferenceDemoController.swift */; };
 		906384D5253C3264008EDFD8 /* MainContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906384D4253C3264008EDFD8 /* MainContentController.swift */; };
 		906384D8253C3542008EDFD8 /* RxOperatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906384D7253C3542008EDFD8 /* RxOperatorController.swift */; };
@@ -161,15 +161,15 @@
 		903E35612630139B00519A1C /* SecondMenuContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMenuContainerViewController.swift; sourceTree = "<group>"; };
 		903E356B26311A3600519A1C /* StickyMenuTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyMenuTabViewController.swift; sourceTree = "<group>"; };
 		903E356E26311F2D00519A1C /* StickyMenuItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyMenuItemViewController.swift; sourceTree = "<group>"; };
+		904492E127D3B3CD002BF548 /* UIView+createRoundedRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+createRoundedRect.swift"; sourceTree = "<group>"; };
+		904492E327D3B8D0002BF548 /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		904492E627D3C062002BF548 /* AnimationContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationContentViewController.swift; sourceTree = "<group>"; };
+		904492E827D3CC19002BF548 /* AnimationNavgator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationNavgator.swift; sourceTree = "<group>"; };
 		905B202A253D4CBB00921545 /* DifferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferenceViewController.swift; sourceTree = "<group>"; };
 		905B202D253D4CF200921545 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		905B2033253D846100921545 /* CyclePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclePageView.swift; sourceTree = "<group>"; };
 		90606D44258A5A7500AA516A /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		90606D49258A5B8A00AA516A /* MyNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigation.swift; sourceTree = "<group>"; };
 		90606D4C258A5BC700AA516A /* MyAppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppNavigation.swift; sourceTree = "<group>"; };
-		90606D50258A5BE400AA516A /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		90606D51258A5BE400AA516A /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
-		90606D56258A5BFE00AA516A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		906384CF253B13CC008EDFD8 /* DifferenceDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferenceDemoController.swift; sourceTree = "<group>"; };
 		906384D4253C3264008EDFD8 /* MainContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentController.swift; sourceTree = "<group>"; };
 		906384D7253C3542008EDFD8 /* RxOperatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxOperatorController.swift; sourceTree = "<group>"; };
@@ -286,6 +286,7 @@
 		9011B76A27C7D8710019F342 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				901BE30325C803E200EF0A27 /* animation */,
 				9011B78127C7E56A0019F342 /* extension */,
 				9011B76D27C7DBB30019F342 /* AutoLayout-updateConstraint */,
 				9011B76C27C7DB4D0019F342 /* GlossyButton */,
@@ -308,6 +309,8 @@
 			children = (
 				9011B77727C7DC930019F342 /* GlossyButtonViewController.swift */,
 				9011B77927C7DD690019F342 /* CoolButton.swift */,
+				904492E127D3B3CD002BF548 /* UIView+createRoundedRect.swift */,
+				904492E327D3B8D0002BF548 /* Drawing.swift */,
 			);
 			path = GlossyButton;
 			sourceTree = "<group>";
@@ -376,6 +379,8 @@
 			isa = PBXGroup;
 			children = (
 				901BE30625C803F500EF0A27 /* AnimationViewController.swift */,
+				904492E627D3C062002BF548 /* AnimationContentViewController.swift */,
+				904492E827D3CC19002BF548 /* AnimationNavgator.swift */,
 			);
 			path = animation;
 			sourceTree = "<group>";
@@ -441,7 +446,6 @@
 				903E3417262EDA2C00519A1C /* SpinViewController.swift */,
 				9079E90B2609D380009E8A6B /* parallax */,
 				90AF17AF25F713BD0004A322 /* presentation */,
-				901BE30325C803E200EF0A27 /* animation */,
 				902EA76D25A6B36D00909F30 /* pageGround */,
 				90E2CCF925A451CC007E270D /* gradientView */,
 				90D20720259108DF00FB42E0 /* extension */,
@@ -512,21 +516,9 @@
 			isa = PBXGroup;
 			children = (
 				90606D44258A5A7500AA516A /* Router.swift */,
-				90606D4F258A5BD500AA516A /* ViewController */,
-				90606D49258A5B8A00AA516A /* MyNavigation.swift */,
 				90606D4C258A5BC700AA516A /* MyAppNavigation.swift */,
 			);
 			path = vender;
-			sourceTree = "<group>";
-		};
-		90606D4F258A5BD500AA516A /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				90606D50258A5BE400AA516A /* AboutViewController.swift */,
-				90606D51258A5BE400AA516A /* AboutViewController.xib */,
-				90606D56258A5BFE00AA516A /* ProfileViewController.swift */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		906384D1253C3204008EDFD8 /* collectionView */ = {
@@ -777,7 +769,6 @@
 				901E180B258F5D7100777101 /* ProgressBarView.xib in Resources */,
 				901E1805258F576400777101 /* XibDemoViewController.xib in Resources */,
 				902E18132537637F001E80CD /* Assets.xcassets in Resources */,
-				90606D53258A5BE400AA516A /* AboutViewController.xib in Resources */,
 				90E2CD0125A45641007E270D /* GradientButton.xib in Resources */,
 				902E18112537637D001E80CD /* Main.storyboard in Resources */,
 				901E17FF258F509F00777101 /* CornerShadowView.xib in Resources */,
@@ -838,6 +829,7 @@
 				9011B77627C7DC3E0019F342 /* Beverage.swift in Sources */,
 				90606D45258A5A7500AA516A /* Router.swift in Sources */,
 				90D2073F259108DF00FB42E0 /* UIColor+extension.swift in Sources */,
+				904492E227D3B3CD002BF548 /* UIView+createRoundedRect.swift in Sources */,
 				90D2074A259108DF00FB42E0 /* String+extension.swift in Sources */,
 				90FAA6F326B8572B0047889F /* FSPagerView+rx.swift in Sources */,
 				90F76091268207C800E3290C /* Custom1PresentationController.swift in Sources */,
@@ -882,6 +874,8 @@
 				903E35622630139B00519A1C /* SecondMenuContainerViewController.swift in Sources */,
 				90D2074E259108DF00FB42E0 /* xib+extensions.swift in Sources */,
 				90395772264A742C003E6CB5 /* MatrixViewController.swift in Sources */,
+				904492E427D3B8D0002BF548 /* Drawing.swift in Sources */,
+				904492E727D3C062002BF548 /* AnimationContentViewController.swift in Sources */,
 				9011B78027C7DEB10019F342 /* Stacks.swift in Sources */,
 				90D20743259108DF00FB42E0 /* UIButton+extension.swift in Sources */,
 				90D20746259108DF00FB42E0 /* UIImage+extension.swift in Sources */,
@@ -909,7 +903,6 @@
 				9020A6F325874CFC00CA24B3 /* ProgressView.swift in Sources */,
 				903E3485262FC6DC00519A1C /* StickyHeaderTabController.swift in Sources */,
 				90C0466A272722230010EA70 /* ViewModel.swift in Sources */,
-				90606D52258A5BE400AA516A /* AboutViewController.swift in Sources */,
 				90B46F4326C0D99A005A22EC /* PartyModeViewController.swift in Sources */,
 				90D20742259108DF00FB42E0 /* UILabel+Extension.swift in Sources */,
 				906384D8253C3542008EDFD8 /* RxOperatorController.swift in Sources */,
@@ -918,15 +911,14 @@
 				90D2074B259108DF00FB42E0 /* NSMutableAttributedString+Extension.swift in Sources */,
 				90A90108267CF8AC004B7E5A /* CustomTransition__ViewController.swift in Sources */,
 				90F210C226252EFA004884BA /* GradientCircleView.swift in Sources */,
+				904492E927D3CC19002BF548 /* AnimationNavgator.swift in Sources */,
 				902EA77625A6B3FF00909F30 /* ListViewController.swift in Sources */,
 				901E17FC258F508D00777101 /* CornerShadowView.swift in Sources */,
 				90A5E476268C279200F260E6 /* GradientShapeViewController.swift in Sources */,
-				90606D57258A5BFE00AA516A /* ProfileViewController.swift in Sources */,
 				90D2073E259108DF00FB42E0 /* UIFont+extension.swift in Sources */,
 				905B202F253D4CF300921545 /* PageViewController.swift in Sources */,
 				9066D1B9260C802B00BEB9FB /* SpinView.swift in Sources */,
 				903E355F2630047E00519A1C /* TableHeaderView+AutoLayout.swift in Sources */,
-				90606D4A258A5B8A00AA516A /* MyNavigation.swift in Sources */,
 				902EA77325A6B3EB00909F30 /* SecondContainerViewController.swift in Sources */,
 				90D20750259108DF00FB42E0 /* Int+extensions.swift in Sources */,
 			);

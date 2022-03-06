@@ -12,7 +12,15 @@ import RxSwift
 class GlossyButtonViewController: UIViewController {
   
   let button = CoolButton(type: .custom)
-  
+  let labelHue = UILabel().then {
+    $0.text = "Hue"
+  }
+  let labelSat = UILabel().then {
+    $0.text = "Sat"
+  }
+  let labelBri = UILabel().then {
+    $0.text = "Bri"
+  }
   let sliderHue = UISlider()
   let sliderSat = UISlider()
   let sliderBri = UISlider()
@@ -21,17 +29,19 @@ class GlossyButtonViewController: UIViewController {
     super.viewDidLoad()
     view.backgroundColor = .white
     view.addSubview(button)
-    button.backgroundColor = .red
     button.snp.makeConstraints{
-      $0.width.equalTo(100)
-      $0.height.equalTo(50)
+      $0.width.equalTo(200)
+      $0.height.equalTo(100)
       $0.centerX.equalToSuperview()
       $0.top.equalTo(view.safeAreaLayoutGuide.snp.top).offset(20)
     }
     
     let content = VStack {
+      labelHue
       sliderHue
+      labelSat
       sliderSat
+      labelBri
       sliderBri
     }
     .spacing(40)
