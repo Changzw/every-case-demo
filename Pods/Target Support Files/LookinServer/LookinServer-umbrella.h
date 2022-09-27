@@ -82,11 +82,11 @@
 #import "LookinWeakContainer.h"
 #import "LookinMsgAttribute.h"
 #import "LookinMsgTargetAction.h"
+#import "Lookin_PTChannel.h"
+#import "Lookin_PTPrivate.h"
+#import "Lookin_PTProtocol.h"
+#import "Lookin_PTUSBHub.h"
 #import "Peertalk.h"
-#import "PTChannel.h"
-#import "PTPrivate.h"
-#import "PTProtocol.h"
-#import "PTUSBHub.h"
 
 FOUNDATION_EXPORT double LookinServerVersionNumber;
 FOUNDATION_EXPORT const unsigned char LookinServerVersionString[];

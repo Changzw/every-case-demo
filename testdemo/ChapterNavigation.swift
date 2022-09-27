@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 enum Chapter: CaseIterable, ViewControllerMaker, Navigation {
+  case segmentView
   case randomTest
   case operators
   case uidemos
@@ -31,26 +32,27 @@ enum Chapter: CaseIterable, ViewControllerMaker, Navigation {
   
   var viewController: UIViewController {
     switch self {
-      case .randomTest:       return RandomTestViewController()
-      case .operators:        return RxOperatorController()
-      case .uidemos:          return ViewController()
-      case .router:           return ViewController()
-      case .xib:              return XibDemoViewController.loadFromNib()
-      case .pageGround:       return TopContainerViewController()
-      case .animationContent:        return AnimationContentViewController()
-      case .presentation:     return PresentFromViewController()
-      case .parallax:         return ParallaxViewController()
-      case .stickyMenu:       return StickyMenuTabViewController()
-      case .matix:            return MatrixViewController()
-      case .customTransiton:  return CustomTransition__ViewController()
-      case .coreGraphic:      return CoreGraphicTableViewController()
-      case .partyMode:        return PartyModeViewController()
-      case .genericTableView: return GenericTableViewController<RecentItem>(items: recentItems, cellConfigurator: {
-        $0.cellConfigurator
-      })
-      case .pagingListView:return PagingListViewController(viewModel: PagingListViewModel())
-    case .floatButton: return DrawBallViewController()
-    case .glossyButton: return GlossyButtonViewController()
+    case .segmentView:      return SegmentViewController()
+    case .randomTest:       return RandomTestViewController()
+    case .operators:        return RxOperatorController()
+    case .uidemos:          return ViewController()
+    case .router:           return ViewController()
+    case .xib:              return XibDemoViewController.loadFromNib()
+    case .pageGround:       return TopContainerViewController()
+    case .animationContent: return AnimationContentViewController()
+    case .presentation:     return PresentFromViewController()
+    case .parallax:         return ParallaxViewController()
+    case .stickyMenu:       return StickyMenuTabViewController()
+    case .matix:            return MatrixViewController()
+    case .customTransiton:  return CustomTransition__ViewController()
+    case .coreGraphic:      return CoreGraphicTableViewController()
+    case .partyMode:        return PartyModeViewController()
+    case .genericTableView: return GenericTableViewController<RecentItem>(items: recentItems, cellConfigurator: {
+      $0.cellConfigurator
+    })
+    case .pagingListView:   return PagingListViewController(viewModel: PagingListViewModel())
+    case .floatButton:      return DrawBallViewController()
+    case .glossyButton:     return GlossyButtonViewController()
     }
   }
 }

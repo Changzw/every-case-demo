@@ -34,6 +34,7 @@ struct MyAppNavigation: AppNavigation {
       case .pagingListView:   return PagingListViewController(viewModel: PagingListViewModel())
       case .floatButton:      return DrawBallViewController()
       case .glossyButton:     return GlossyButtonViewController()
+      case .segmentView:      return SegmentViewController()
       }
     }
     return UIViewController()

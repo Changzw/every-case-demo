@@ -121,7 +121,7 @@ extension HStack: StackModifier {
     insets(dx: d, dy: d)
   }
 
-  func insets(dx: CGFloat, dy: CGFloat) -> Stack {
+  func insets(dx: CGFloat, dy: CGFloat) -> HStack {
     insets(UIEdgeInsets(top: dy, left: dx, bottom: dy, right: dx))
   }
 

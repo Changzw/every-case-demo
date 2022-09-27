@@ -12,7 +12,7 @@ public class Router {
   public static let `default`:IsRouter = DefaultRouter()
 }
 
-public protocol Navigation { }
+public protocol Navigation {}
 
 public protocol AppNavigation {
   func viewcontrollerForNavigation(navigation: Navigation) -> UIViewController

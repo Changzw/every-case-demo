@@ -4,10 +4,8 @@ ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/DifferenceKit/DifferenceKit.framework
 ${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework
 ${BUILT_PRODUCTS_DIR}/Down/Down.framework
-${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework
 ${BUILT_PRODUCTS_DIR}/FRDIntent/FRDIntent.framework
 ${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework
-${BUILT_PRODUCTS_DIR}/FlexUI/FlexUI.framework
 ${BUILT_PRODUCTS_DIR}/Gifu/Gifu.framework
 ${BUILT_PRODUCTS_DIR}/Hue/Hue.framework
 ${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework
@@ -24,16 +22,13 @@ ${BUILT_PRODUCTS_DIR}/MagazineLayout/MagazineLayout.framework
 ${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
 ${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework
 ${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework
-${BUILT_PRODUCTS_DIR}/Nuke-WebP-Plugin/NukeWebPPlugin.framework
 ${BUILT_PRODUCTS_DIR}/PPBadgeViewSwift/PPBadgeViewSwift.framework
 ${BUILT_PRODUCTS_DIR}/PagingKit/PagingKit.framework
 ${BUILT_PRODUCTS_DIR}/Popover/Popover.framework
 ${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework
-${BUILT_PRODUCTS_DIR}/QGVAPlayer/QGVAPlayer.framework
 ${BUILT_PRODUCTS_DIR}/Result/Result.framework
 ${BUILT_PRODUCTS_DIR}/RouterService/RouterService.framework
 ${BUILT_PRODUCTS_DIR}/RouterServiceInterface/RouterServiceInterface.framework
-${BUILT_PRODUCTS_DIR}/Runtime/Runtime.framework
 ${BUILT_PRODUCTS_DIR}/RxAnimated/RxAnimated.framework
 ${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
 ${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework
@@ -47,7 +42,6 @@ ${BUILT_PRODUCTS_DIR}/SVGAPlayer/SVGAPlayer.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
 ${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework
 ${BUILT_PRODUCTS_DIR}/SwiftRichString/SwiftRichString.framework
-${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework
+${BUILT_PRODUCTS_DIR}/XCoordinator/XCoordinator.framework
 ${BUILT_PRODUCTS_DIR}/ZVActivityIndicatorView/ZVActivityIndicatorView.framework
 ${BUILT_PRODUCTS_DIR}/ZVProgressHUD/ZVProgressHUD.framework
-${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework

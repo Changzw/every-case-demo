@@ -8,6 +8,7 @@
 
 import UIKit
 /*
+ https://www.raywenderlich.com/216251-core-graphics-how-to-make-a-glossy-button
  制作圆角矩形的一种方法是使用 CGContextAddArc API 绘制弧线。
  使用该 API，您可以在每个角处绘制弧线并绘制线以连接它们。
  但这很麻烦，并且需要大量的几何图形。

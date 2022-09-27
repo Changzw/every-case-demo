@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import XCoordinator
 
 final class AnimationContentViewController: UIViewController {
+  var router: UnownedRouter<AnimationRoute>?
+  
   let tableView = UITableView().then {
     $0.register(UITableViewCell.self, forCellReuseIdentifier: UITableViewCell.description())
   }
@@ -42,7 +45,8 @@ extension AnimationContentViewController: UITableViewDelegate, UITableViewDataSo
     let type = AnimationChapter.allCases[indexPath.row]
     switch type {
     case .animation:
-      navigationController?.pushViewController(AnimationViewController(), animated: true)
+      router?.trigger(.test)
+//      navigationController?.pushViewController(AnimationViewController(), animated: true)
     }
   }
 }

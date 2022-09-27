@@ -18,7 +18,7 @@ extension UIButton {
 }
 
 extension UIButton: Nuke_ImageDisplaying {
-  public func nuke_display(image: UIImage?) {
+  public func nuke_display(image: PlatformImage?, data: Data?) {
     setImage(image, for: .normal)
   }
 }
