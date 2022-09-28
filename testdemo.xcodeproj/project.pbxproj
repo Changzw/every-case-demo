@@ -21,6 +21,8 @@
 		071FFEE6289A85010020F0A0 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 071FFEDA289A85000020F0A0 /* 11.jpg */; };
 		071FFEE7289A85010020F0A0 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 071FFEDB289A85010020F0A0 /* 10.jpg */; };
 		077AE3F028E2D56600F2411F /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077AE3EF28E2D56600F2411F /* SegmentViewController.swift */; };
+		078B541128E3F813003FB6D8 /* AutoLayoutSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B541028E3F813003FB6D8 /* AutoLayoutSegmentView.swift */; };
+		078B541328E3F84C003FB6D8 /* FrameSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B541228E3F84C003FB6D8 /* FrameSegmentView.swift */; };
 		9011B76027C68C790019F342 /* SensorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011B75F27C68C790019F342 /* SensorEvent.swift */; };
 		9011B76327C693580019F342 /* DeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011B76227C693580019F342 /* DeepLink.swift */; };
 		9011B76627C7A5960019F342 /* DrawBallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011B76527C7A5960019F342 /* DrawBallViewController.swift */; };
@@ -152,6 +154,8 @@
 		071FFEDB289A85010020F0A0 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 		072A0F0327F202F7005C1D70 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		077AE3EF28E2D56600F2411F /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
+		078B541028E3F813003FB6D8 /* AutoLayoutSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutSegmentView.swift; sourceTree = "<group>"; };
+		078B541228E3F84C003FB6D8 /* FrameSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameSegmentView.swift; sourceTree = "<group>"; };
 		52053506F1B58737258ECFA0 /* Pods-testdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testdemo.debug.xcconfig"; path = "Target Support Files/Pods-testdemo/Pods-testdemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5D9B8DC095D41D536A1F6B71 /* Pods-testdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testdemo.release.xcconfig"; path = "Target Support Files/Pods-testdemo/Pods-testdemo.release.xcconfig"; sourceTree = "<group>"; };
 		8B2EAC71D86D59A2961AD4F1 /* Pods-testdemo.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testdemo.appstore.xcconfig"; path = "Target Support Files/Pods-testdemo/Pods-testdemo.appstore.xcconfig"; sourceTree = "<group>"; };
@@ -322,6 +326,8 @@
 			isa = PBXGroup;
 			children = (
 				077AE3EF28E2D56600F2411F /* SegmentViewController.swift */,
+				078B541028E3F813003FB6D8 /* AutoLayoutSegmentView.swift */,
+				078B541228E3F84C003FB6D8 /* FrameSegmentView.swift */,
 			);
 			path = SegmentView;
 			sourceTree = "<group>";
@@ -991,6 +997,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				902EA76F25A6B3DE00909F30 /* TopContainerViewController.swift in Sources */,
+				078B541128E3F813003FB6D8 /* AutoLayoutSegmentView.swift in Sources */,
 				90C046682727220A0010EA70 /* PagingListViewModel.swift in Sources */,
 				9011B77627C7DC3E0019F342 /* Beverage.swift in Sources */,
 				90B74F6F27D7CD3800414AC1 /* StarshipListCell.swift in Sources */,
@@ -1047,6 +1054,7 @@
 				90D2074E259108DF00FB42E0 /* xib+extensions.swift in Sources */,
 				90B74F7327D7CD3800414AC1 /* StarshipDetailViewController.swift in Sources */,
 				90395772264A742C003E6CB5 /* MatrixViewController.swift in Sources */,
+				078B541328E3F84C003FB6D8 /* FrameSegmentView.swift in Sources */,
 				904492E427D3B8D0002BF548 /* Drawing.swift in Sources */,
 				904492E727D3C062002BF548 /* AnimationContentViewController.swift in Sources */,
 				90B74F7427D7CD3800414AC1 /* StarshipsViewController.swift in Sources */,
