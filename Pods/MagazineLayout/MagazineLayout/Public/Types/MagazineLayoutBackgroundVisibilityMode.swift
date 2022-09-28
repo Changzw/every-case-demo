@@ -16,11 +16,11 @@
 /// Represents the visibility mode for a background.
 public enum MagazineLayoutBackgroundVisibilityMode: Hashable {
 
-  /// This visiblity mode will cause the background to be displayed behind the items and headers in
+  /// This visibility mode will cause the background to be displayed behind the items and headers in
   /// its respective section.
   case visible
 
-  /// This visibility mode will cause the background to not be visibile behind the items and headers
+  /// This visibility mode will cause the background to not be visible behind the items and headers
   /// in its respective section.
   case hidden
 

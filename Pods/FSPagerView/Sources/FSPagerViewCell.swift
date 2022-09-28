@@ -101,15 +101,11 @@ open class FSPagerViewCell: UICollectionViewCell {
     fileprivate func commonInit() {
         self.contentView.backgroundColor = UIColor.clear
         self.backgroundColor = UIColor.clear
+        self.contentView.layer.shadowColor = UIColor.black.cgColor
+        self.contentView.layer.shadowRadius = 5
+        self.contentView.layer.shadowOpacity = 0.75
+        self.contentView.layer.shadowOffset = .zero
     }
-  
-  public func configShadow(color: UIColor = .black, radius: CGFloat = 5, opacity: Float = 0.75, offset: CGSize = .zero) {
-    contentView.layer.shadowColor = color.cgColor
-    contentView.layer.shadowRadius = radius
-    contentView.layer.shadowOpacity = opacity
-    contentView.layer.shadowOffset = offset
-    contentView.setNeedsDisplay()
-  }
     
     deinit {
         if let textLabel = _textLabel {

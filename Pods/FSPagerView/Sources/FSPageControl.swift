@@ -66,15 +66,6 @@ open class FSPageControl: UIControl {
         }
     }
     
-  open var isHorizontalFlip: Bool = false {
-    didSet {
-      transform = .identity
-      if isHorizontalFlip {
-        transform = CGAffineTransform(scaleX: -1, y: 1)
-      }
-    }
-  }
-  
     internal var strokeColors: [UIControl.State: UIColor] = [:]
     internal var fillColors: [UIControl.State: UIColor] = [:]
     internal var paths: [UIControl.State: UIBezierPath] = [:]
@@ -120,9 +111,9 @@ open class FSPageControl: UIControl {
             case .left, .leading:
                 return 0
             case .center, .fill:
-                let maxX = self.contentView.bounds.maxX
-                let amplitude = CGFloat(self.numberOfPages) * diameter + spacing*CGFloat(self.numberOfPages-1)
-                return (maxX - amplitude) / 2
+                let midX = self.contentView.bounds.midX
+                let amplitude = CGFloat(self.numberOfPages/2) * diameter + spacing*CGFloat((self.numberOfPages-1)/2)
+                return midX - amplitude
             case .right, .trailing:
                 let contentWidth = diameter*CGFloat(self.numberOfPages) + CGFloat(self.numberOfPages-1)*spacing
                 return contentView.frame.width - contentWidth

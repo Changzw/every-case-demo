@@ -46,7 +46,7 @@ target 'testdemo' do
 #  pod 'IJKPlayerSSL',   :git => 'https://code.badam.mobi/badambiz_ios/ijkplayer_pod.git', :branch => 'master'
   pod 'Localize-Swift'  #,:binary => true
   pod 'MagazineLayout'  #,:binary => true
-  pod 'FSPagerView',    :git =>'https://code.badam.mobi/badambiz_ios/fspagerview.git', :branch=>'master'  #,:binary => true
+  pod 'FSPagerView'#,    :git =>'https://code.badam.mobi/badambiz_ios/fspagerview.git', :branch=>'master'  #,:binary => true
   pod 'PagingKit' #,:binary => true
   
   pod 'SwiftRichString' #,:binary => true

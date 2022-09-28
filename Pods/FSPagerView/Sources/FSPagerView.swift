@@ -192,15 +192,6 @@ open class FSPagerView: UIView,UICollectionViewDataSource,UICollectionViewDelega
         }
     }
     
-  open var isHorizontalFlip: Bool = false {
-    didSet {
-      collectionView.transform = .identity
-      if isHorizontalFlip {
-        collectionView.transform = CGAffineTransform(scaleX: -1, y: 1)
-      }
-    }
-  }
-  
     // MARK: - Public readonly-properties
     
     /// Returns whether the user has touched the content to initiate scrolling.
@@ -342,9 +333,6 @@ open class FSPagerView: UIView,UICollectionViewDataSource,UICollectionViewDelega
         let index = indexPath.item
         self.dequeingSection = indexPath.section
         let cell = self.dataSource!.pagerView(self, cellForItemAt: index)
-        if isHorizontalFlip {
-            cell.contentView.transform = CGAffineTransform(scaleX: -1, y: 1)
-        }
         return cell
     }
     

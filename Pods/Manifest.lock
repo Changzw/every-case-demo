@@ -3,11 +3,11 @@ PODS:
     - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
   - Alamofire (4.9.1)
-  - DifferenceKit (1.2.0):
-    - DifferenceKit/Core (= 1.2.0)
-    - DifferenceKit/UIKitExtension (= 1.2.0)
-  - DifferenceKit/Core (1.2.0)
-  - DifferenceKit/UIKitExtension (1.2.0):
+  - DifferenceKit (1.3.0):
+    - DifferenceKit/Core (= 1.3.0)
+    - DifferenceKit/UIKitExtension (= 1.3.0)
+  - DifferenceKit/Core (1.3.0)
+  - DifferenceKit/UIKitExtension (1.3.0):
     - DifferenceKit/Core
   - Differentiator (3.1.0)
   - Down (0.11.0)
@@ -16,11 +16,11 @@ PODS:
   - FRDIntent/Intent (0.10.4)
   - FRDIntent/URLRoutes (0.10.4):
     - FRDIntent/Intent
-  - FSPagerView (0.0.1)
+  - FSPagerView (0.8.3)
   - Gifu (3.3.1)
   - Hue (5.0.0)
   - IBAnimatable (6.1.0)
-  - IQKeyboardManagerSwift (6.5.9)
+  - IQKeyboardManagerSwift (6.5.10)
   - JGProgressHUD (2.2)
   - KeychainAccess (4.2.2)
   - LiteRoute (2.1.21)
@@ -30,26 +30,26 @@ PODS:
   - Localize-Swift/LocalizeSwiftCore (3.2.0)
   - Localize-Swift/UIKit (3.2.0):
     - Localize-Swift/LocalizeSwiftCore
-  - LookinServer (1.0.5)
-  - MagazineLayout (1.6.5)
+  - LookinServer (1.0.6)
+  - MagazineLayout (1.6.11)
   - MJRefresh (3.7.5)
-  - MMKV (1.2.12):
-    - MMKVCore (~> 1.2.12)
-  - MMKVCore (1.2.12)
+  - MMKV (1.2.14):
+    - MMKVCore (~> 1.2.14)
+  - MMKVCore (1.2.14)
   - Moya/Core (13.0.1):
     - Alamofire (~> 4.1)
     - Result (~> 4.1)
   - Moya/RxSwift (13.0.1):
     - Moya/Core
     - RxSwift (~> 4.0)
-  - MPITextKit (0.1.10)
+  - MPITextKit (0.1.12)
   - "NSObject+Rx (4.4.1)":
     - RxSwift (~> 4.3)
   - Nuke (10.7.1)
   - PagingKit (1.18.1)
   - Popover (1.3.0)
   - PPBadgeViewSwift (3.1.0)
-  - Protobuf (3.19.4)
+  - Protobuf (3.21.6)
   - Result (4.1.0)
   - RouterService (1.1.0):
     - RouterServiceInterface (= 1.1.0)
@@ -83,7 +83,7 @@ PODS:
     - RxSwiftExt/Core
   - RxViewModel (6.0.0):
     - RxSwift (~> 4.0)
-  - SnapKit (5.0.1)
+  - SnapKit (5.6.0)
   - SSZipArchive (2.4.3)
   - Starscream (4.0.4)
   - SVGAPlayer (2.5.7):
@@ -95,9 +95,9 @@ PODS:
   - SVGAPlayer/ProtoFiles (2.5.7):
     - Protobuf (~> 3.4)
   - SwiftRichString (3.7.2)
-  - XCoordinator (2.0.7):
-    - XCoordinator/Core (= 2.0.7)
-  - XCoordinator/Core (2.0.7)
+  - XCoordinator (2.2.0):
+    - XCoordinator/Core (= 2.2.0)
+  - XCoordinator/Core (2.2.0)
   - ZVActivityIndicatorView (1.0.0)
   - ZVProgressHUD (3.0.6):
     - ZVActivityIndicatorView
@@ -107,7 +107,7 @@ DEPENDENCIES:
   - DifferenceKit
   - Down
   - FRDIntent (from `https://github.com/douban/FRDIntent.git`)
-  - FSPagerView (from `https://code.badam.mobi/badambiz_ios/fspagerview.git`, branch `master`)
+  - FSPagerView
   - Gifu
   - Hue
   - IBAnimatable
@@ -149,6 +149,7 @@ SPEC REPOS:
     - DifferenceKit
     - Differentiator
     - Down
+    - FSPagerView
     - Gifu
     - Hue
     - IBAnimatable
@@ -193,47 +194,41 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   FRDIntent:
     :git: https://github.com/douban/FRDIntent.git
-  FSPagerView:
-    :branch: master
-    :git: https://code.badam.mobi/badambiz_ios/fspagerview.git
 
 CHECKOUT OPTIONS:
   FRDIntent:
     :commit: 9fa5a67089aaf77d8a1776e6361bbc89015d35cd
     :git: https://github.com/douban/FRDIntent.git
-  FSPagerView:
-    :commit: 68f595621d98cc00aaacdcb779e1026d5f7d3d40
-    :git: https://code.badam.mobi/badambiz_ios/fspagerview.git
 
 SPEC CHECKSUMS:
   Action: 689181e4c3f6566844178d8a7da6fef39a9597fc
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  DifferenceKit: 5659c430bb7fe45876fa32ce5cba5d6167f0c805
+  DifferenceKit: ab185c4d7f9cef8af3fcf593e5b387fb81e999ca
   Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
   Down: b6ba1bc985c9d2f4e15e3b293d2207766fa12612
   FRDIntent: 2a92bac96c3735deba00af50e2fd7ac67d763783
-  FSPagerView: 1f65acefe9da8c0402893a94f37cc6301e0a2dc3
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
   Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
   Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
   IBAnimatable: 99dddd4c0625884a301ba3ecbc1615f8a390368e
-  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
   JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
   KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
   LiteRoute: 0de115c90e3d8927ba8ae039f13a3b8a41a1ead5
   Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
-  LookinServer: 3d9a02529ed94a6a08154440c26f6d7f453bb1e7
-  MagazineLayout: aa7a1a70aac10791a08a29790320de0670e3f4ba
+  LookinServer: 18155b1e4a08213c236a1dd6b7ca52328a70a1e3
+  MagazineLayout: 36c4d1b19bb4f00496067a12300d46e8ba406354
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
-  MMKV: f281020c9d9be5eb7a03ae746dc4deb570e46c23
-  MMKVCore: df0565f6b58463604731a68ba6cd89bc0b2d1d55
+  MMKV: 9c4663aa7ca255d478ff10f2f5cb7d17c1651ccd
+  MMKVCore: 89f5c8a66bba2dcd551779dea4d412eeec8ff5bb
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
-  MPITextKit: a8d58719f46c083484a4a67e24c373573089b538
+  MPITextKit: b70a36423f1409b3a12777e43c8beb7a91475654
   "NSObject+Rx": 9884a92f19b610795c431e10b4e601913b59c9e9
   Nuke: 279f17a599fd1c83cf51de5e0e1f2db143a287b0
   PagingKit: 0e7ec4e3791ab55887e129b27f7486a91b761129
   Popover: 10e1d9528f81d9504df984b7b3f491292bc1822d
   PPBadgeViewSwift: 18a219a9897f418342c22dd1a54f7b18ac56546b
-  Protobuf: 235750e4696ff59fb07d949a9dbbc92b3c0700fe
+  Protobuf: e7846f61e8542750cf311385fc633c1d00928f9f
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RouterService: 0a42c4e2ed3918afaaca7b3e9afe3e2f1475d1d7
   RouterServiceInterface: 0d3d11d5cfd00f9003df8003d38927767be1b799
@@ -245,15 +240,15 @@ SPEC CHECKSUMS:
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   RxSwiftExt: 01f8ecbeeb355698e9c75365ebe908b00dacf45d
   RxViewModel: a50db3976409628887bad943825ab5f641275f0c
-  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
   SVGAPlayer: 318b85a78b61292d6ae9dfcd651f3f0d1cdadd86
   SwiftRichString: d61b807db1f8834c26fee92b6dd3e1be2dc5af03
-  XCoordinator: 9ee654fedef1ffede33d5c11677708a555c00542
+  XCoordinator: a5f91e43ee944f508529763921165697d3211629
   ZVActivityIndicatorView: fea0b3a8d8e0f54a106db3c6d543f7d5444cd9ea
   ZVProgressHUD: dfa70d6d3a0ba98826f2fd9b73d2e2b01a69967e
 
-PODFILE CHECKSUM: bd62529394aa97f130c0f371e57809b5b3113246
+PODFILE CHECKSUM: 8d0b3cb4e65e8dbfc4d4797d46ad1c4d3df4f4a2
 
 COCOAPODS: 1.11.3

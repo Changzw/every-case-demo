@@ -51,6 +51,8 @@
 #import "LKS_PerspectiveToolbarButtons.h"
 #import "LKS_PerspectiveViewController.h"
 #import "CALayer+Lookin.h"
+#import "Color+Lookin.h"
+#import "Image+Lookin.h"
 #import "NSArray+Lookin.h"
 #import "NSObject+Lookin.h"
 #import "NSSet+Lookin.h"
